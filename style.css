@@ -1,0 +1,40 @@
+h1, h2, h3, h4 {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: #FEFAE0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#FEFAE0
+}
+
+header {
+    border: 2px solid #283618;
+    background-color: #606C38;
+    padding: 15px;
+}
+
+nav {
+    top:0px;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav-item {
+    border: 2px solid #283618;
+    background-color: #606C38;
+    padding: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.main-item {
+    border: 2px solid #283618;
+    background-color: #606C38;
+    padding: 15px;
+    scroll-behavior: smooth;
+}
